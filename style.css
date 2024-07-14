@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 730px;
+    height: 510px;
+    border-radius: 30px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 10px 10px 20px 5px hsl(241, 100%, 89%);
+
+}
+
+.container .coluna1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(241, 81%, 54%);
+    border-radius: 30px;
+    color: hsl(241, 39%, 76%);
+}
+
+.container .coluna1 .titulo1 {
+    display: grid;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 25px;
+}
+
+.container .coluna1 .circulo  {
+    display: grid;
+    text-align: center;
+    margin-top: 30px;
+    background-color: hsl(246, 67%, 43%);
+    height: 210px;
+    width: 210px;
+    border-radius: 100%;
+
+}
+
+.container .coluna1 .circulo .parag1 {
+    display: grid;
+    align-items: end;
+    font-size: 70px;
+    font-weight: 700;
+    color: hsl(221, 100%, 96%);
+}
+
+.container .coluna1 .circulo .parag2 {
+    font-size: 18px;
+}
+
+.container .coluna1 .titulo2 {
+    display: grid;
+    text-align: center;
+    font-size: 40px;
+    color: hsl(221, 100%, 96%);
+    margin-top: 30px;
+}
+
+.container .coluna1 .paragrafo {
+    text-align: center;
+    margin: 10px 60px;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+
+.container .coluna2 div {
+    display: grid;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 20px 30px;
+    height: 55px;
+    align-items: center;
+}
+
+.container .coluna2 .titulo3 {
+    padding: 40px 40px 20px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.container .coluna2 .reaction  {
+    background-color: hsl(0, 100%, 67%);
+    opacity: 20%;
+}
+
+.container .coluna2 .memory {
+    background-color: hsl(39, 100%, 56%);
+    opacity: 20%;
+}
+
+.container .coluna2 .verbal {
+    background-color: hsl(166, 100%, 37%);
+    opacity: 20%;
+}
+
+.container .coluna2 .visual {
+    background-color: hsl(234, 85%, 45%);
+    opacity: 20%;
+}
+
+.container .coluna2 a {
+    display: grid;
+    background-color: hsl(224, 30%, 27%);
+    margin: 10px 40px;
+    text-align: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: hsl(221, 100%, 96%);
+
+}
+
+
+
+
+
+
+
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
