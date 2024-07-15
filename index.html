@@ -1,51 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
-
+  <link rel="stylesheet" href="responsivo.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Componente de resumo de resultados</title>
-
 </head>
-
 <body>
-
   <main class="main">
-
     <section class="container">
       <div class="coluna1">
         <h1 class="titulo1">Your Result</h1>
         <div class="circulo">
           <p class="parag1">76</p>
           <p class="parag2">of 100</p>
-        </div>        
+        </div>
         <h2 class="titulo2">Great</h2>
         <p class="paragrafo">You scored higher than 65% of the people who have taken these tests.</p>
       </div>
       <div class="coluna2">
         <h3 class="titulo3">Summary</h3>
-        <div class="reaction">Reaction 80 / 100</div>
-        <div class="memory">Memory 92 / 100</div>
-        <div class="verbal">Verbal 61 / 100</div>
-        <div class="visual">Visual 72 / 100</div>
+        <div class="reaction">
+          <i class="fas fa-bolt"></i>
+          <p class="vermelho">Reaction <strong>80/100</strong></p>
+        </div>
+        <div class="memory">
+          <i class="fas fa-brain"></i>
+          <p class="amarelo">Memory <strong>92/100</strong></p>
+        </div>
+        <div class="verbal">
+          <i class="fab fa-whatsapp"></i>
+          <p class="verde">Verbal <strong>61/100</strong></p>
+        </div>
+        <div class="visual">
+          <i class="far fa-eye"></i>
+          <p class="azul">Visual <strong>72/100</strong></p>
+        </div>
         <a href="/">Continue</a>
       </div>
     </section>
-
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </div>
-
   </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+    integrity="sha512-Tn2m0TIpgVyTzzvmxLNuqbSJH3JP8jm+Cy3hvHrW7ndTDcJ1w5mBiksqDBb8GpE2ksktFvDB/ykZ0mDpsZj20w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
-
 </html>

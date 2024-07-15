@@ -23,7 +23,6 @@
     font-style: normal;
     background-color: hsl(0, 0%, 100%);
     box-shadow: 10px 10px 20px 5px hsl(241, 100%, 89%);
-
 }
 
 .container .coluna1 {
@@ -50,7 +49,6 @@
     height: 210px;
     width: 210px;
     border-radius: 100%;
-
 }
 
 .container .coluna1 .circulo .parag1 {
@@ -83,7 +81,6 @@
 
 .container .coluna2 div {
     display: grid;
-    padding: 5px;
     border-radius: 10px;
     margin: 20px 30px;
     height: 55px;
@@ -97,23 +94,55 @@
 }
 
 .container .coluna2 .reaction  {
-    background-color: hsl(0, 100%, 67%);
-    opacity: 20%;
+    display: flex;
+    word-spacing: 120px;
+    background-color:rgb(252, 238, 237);
+    font-weight: 400;
+}
+
+.container .coluna2 .reaction .fa-bolt, .vermelho {
+    margin-left: 15px;
+    color: hsl(0, 100%, 67%);
 }
 
 .container .coluna2 .memory {
-    background-color: hsl(39, 100%, 56%);
-    opacity: 20%;
+    display: flex;
+    word-spacing: 115px;
+    background-color: rgb(253, 244, 221);
+    font-weight: 400;
+}
+
+.container .coluna2 .memory .fa-brain, .amarelo {
+    margin-left: 15px;
+    color: hsl(39, 100%, 56%);
 }
 
 .container .coluna2 .verbal {
-    background-color: hsl(166, 100%, 37%);
-    opacity: 20%;
+    display: flex;
+    word-spacing: 130px;
+    background-color: rgb(231, 252, 249);
+    font-weight: 400;
+}
+
+.container .coluna2 .verbal .fa-whatsapp, .verde {
+    margin-left: 15px;
+    color: hsl(166, 100%, 37%);
 }
 
 .container .coluna2 .visual {
-    background-color: hsl(234, 85%, 45%);
-    opacity: 20%;
+    display: flex;
+    word-spacing: 130px;
+    background-color: rgb(234, 234, 253);
+    font-weight: 400;
+}
+
+.container .coluna2 .visual .fa-eye, .azul {
+    margin-left: 15px;
+    color: hsl(234, 85%, 45%)
+}
+
+strong {
+    color: rgb(112, 112, 112);
 }
 
 .container .coluna2 a {
@@ -126,22 +155,4 @@
     border-radius: 30px;
     text-decoration: none;
     color: hsl(221, 100%, 96%);
-
-}
-
-
-
-
-
-
-
-
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
